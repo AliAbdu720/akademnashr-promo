@@ -1,3 +1,11 @@
+body {
+font-size: 16px;
+line-height: 1.5;
+font-family: "Roboto", "Arial", sans-serif;
+letter-spacing: 0.5px;
+
+}
+
 .site-header {
     background-color: #fff;
 }
@@ -43,29 +51,29 @@ color: #fff;
     }
     
 
-.hero-img{
+.hero-img {
 
-    width: 510;
-    height: 510;
+    width: 510px;
+    height: 510px;
 }
-.hero-heading{
+.hero-heading {
 font-size: 40px;
-line-height: 120%;
-letter-spacing: 0.5px;
+line-height: 1.2;
+font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
-.hero-text{
+/* .hero-text{
 
     font-size: 16px;
     line-height: 150%;
-  letter-spacing: 0.5px;
-}
+} */
 
 .features-heading {
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 
 }
 
@@ -88,14 +96,15 @@ background: #FF750033;
 font-size: 24px;
 line-height: 120%;
 letter-spacing: 0.5;
+font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
-.feature-info {
+/* .feature-info {
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.5px;
 }
-
+ */
 
 .promo {
 background-color: #252420;
@@ -111,12 +120,13 @@ color: #fff;
 .promo-heading {
 font-size: 40px;
 line-height: 48px;
+font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
-.promo-text {
+/* .promo-text {
     font-size: 16px;
     line-height: 1.5;
-}
+} */
 
 .promo-highlight {
 color: #FF7500;
