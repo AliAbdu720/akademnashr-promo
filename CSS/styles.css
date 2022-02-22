@@ -14,6 +14,17 @@ letter-spacing: 0.5px;
 
 }
 
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
+.logo-link:active {
+    opacity: 0.6;
+}
 .site-header {
     display: flex;
     align-items: center;
@@ -34,6 +45,14 @@ letter-spacing: 1px;
 text-transform: uppercase;
 text-decoration: none;
 color: #000;
+transition: color 0.4s ease, opacity 0.4s ease;
+}
+.sitenav-link:hover {
+    color: #FF7500;
+}
+
+.sitenav-link:active{
+   opacity: 0.6;
 }
 
 .main-link {
@@ -42,8 +61,16 @@ line-height: 15px;
 background: #FF7500;
 color: #fff;
 text-decoration: none;
+transition: opacity 0.4s ease ;
 }
 
+.main-link:hover {
+    opacity: 0.8;
+}
+
+.main-link:active {
+    opacity: 0.6;
+}
 
 
 .hero {
@@ -192,8 +219,18 @@ background-color: #F8f8f8;
 .site-footer-socials {
     display: flex;
     align-items: center;
-    
-    
+      
+    }
+    .site-footer-socials a:hover {
+        color: #252420;
+    }
+
+    .site-footer-socials a {
+        color: #FF7500;
+    }
+
+    .site-footer-socials a:active {
+        opacity: 0.6;
     }
 
 .site-footer-divider {
@@ -208,4 +245,11 @@ background-color: #F8f8f8;
     line-height: 19px;
     font-size: 16px;
     
+}
+
+.site-footer-link-list a:hover {
+    color: #FF7500;
+}
+.site-footer-link-list a:focus {
+    opacity: 0.6;
 }
