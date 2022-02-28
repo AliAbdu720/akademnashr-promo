@@ -19,8 +19,14 @@ letter-spacing: 0.5px;
 
 .logo-link {
     transition: opacity 0.4s ease;
+    
+
+
+.logo-link img {
+    display: block;
 }
 
+    }
 .logo-link:hover {
     opacity: 0.8;
 }
